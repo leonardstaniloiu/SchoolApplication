@@ -69,23 +69,23 @@ public class AssignmentsController
     [HttpDelete("{id}")]
     public AssignmentsResponse Delete([FromRoute] string id)
     {
-        var id_cautat = _mockDb.FirstOrDefault(x => x.Id == id);
+        var IdCautat = _mockDb.FirstOrDefault(x => x.Id == id);
         
-        if (id_cautat is null)
+        if (IdCautat is null)
         {
             return null;
         }
 
-        _mockDb.Remove(id_cautat);
+        _mockDb.Remove(IdCautat);
 
         return new AssignmentsResponse()
         {
             Success = true,
             Mesaj = $"Inregistrarea id-ului {id} a fost stearsa cu succes!",
-            Id = id_cautat.Id,
-            Subject = id_cautat.Subject,
-            Description = id_cautat.Description,
-            Deadline = id_cautat.Deadline
+            Id = IdCautat.Id,
+            Subject = IdCautat.Subject,
+            Description = IdCautat.Description,
+            Deadline = IdCautat.Deadline
 
         };
     }
@@ -93,26 +93,26 @@ public class AssignmentsController
     [HttpPatch("{id}")]
     public AssignmentsResponse Patch([FromRoute] string id, [FromBody] AssignmentsResponse request)
     {
-        var id_cautat = _mockDb.FirstOrDefault(x => x.Id == id);
+        var IdCautat = _mockDb.FirstOrDefault(x => x.Id == id);
 
-        if (id_cautat is null)
+        if (IdCautat is null)
         {
             return null;
         }
 
-        id_cautat.Subject = request.Subject;
-        id_cautat.Description = request.Description;
-        id_cautat.Deadline = request.Deadline;
-        id_cautat.Id = request.Id;
+        IdCautat.Subject = request.Subject;
+        IdCautat.Description = request.Description;
+        IdCautat.Deadline = request.Deadline;
+        IdCautat.Id = request.Id;
 
         return new AssignmentsResponse()
         {
             Success = true,
             Mesaj = $"Inregistrarea id-ului {id} a fost modificata cu succes!",
-            Id = id_cautat.Id,
-            Subject = id_cautat.Subject,
-            Description = id_cautat.Description,
-            Deadline = id_cautat.Deadline
+            Id = IdCautat.Id,
+            Subject = IdCautat.Subject,
+            Description = IdCautat.Description,
+            Deadline = IdCautat.Deadline
         };
     }
 
