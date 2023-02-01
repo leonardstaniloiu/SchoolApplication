@@ -4,7 +4,6 @@ using School.Features.Test.ViewsTest;
 
 namespace School.Features.Test;
 
-
 [ApiController]
 [Route("Test")]
 public class TestController
@@ -28,7 +27,6 @@ public class TestController
 
         return new TestResponse()
         {
-            Success = true,
             Id = test.Id,
             Subject = test.Subject,
             DateTest = test.DateTest,
@@ -61,7 +59,6 @@ public class TestController
 
         return new TestResponse()
         {
-            Success = true,
             Id = test.Id,
             Subject = test.Subject,
             DateTest = test.DateTest
@@ -82,7 +79,6 @@ public class TestController
         
         return new TestResponse()
         {
-            Success = true,
             Id = test.Id,
             Subject = test.Subject,
             DateTest = test.DateTest
@@ -105,7 +101,6 @@ public class TestController
 
         return new TestResponse()
         {
-            Success = true,
             Id = test.Id,
             Subject = test.Subject,
             DateTest = test.DateTest

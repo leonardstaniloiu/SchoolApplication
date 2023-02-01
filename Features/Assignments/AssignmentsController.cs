@@ -80,8 +80,6 @@ public class AssignmentsController
 
         return new AssignmentsResponse()
         {
-            Success = true,
-            Mesaj = $"Inregistrarea id-ului {id} a fost stearsa cu succes!",
             Id = IdCautat.Id,
             Subject = IdCautat.Subject,
             Description = IdCautat.Description,
@@ -107,8 +105,6 @@ public class AssignmentsController
 
         return new AssignmentsResponse()
         {
-            Success = true,
-            Mesaj = $"Inregistrarea id-ului {id} a fost modificata cu succes!",
             Id = IdCautat.Id,
             Subject = IdCautat.Subject,
             Description = IdCautat.Description,

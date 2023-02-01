@@ -31,3 +31,13 @@ C:\Users\Leonard\Desktop\SchoolApplication\obj\Debug\net7.0\refint\School.dll
 C:\Users\Leonard\Desktop\SchoolApplication\obj\Debug\net7.0\School.pdb
 C:\Users\Leonard\Desktop\SchoolApplication\obj\Debug\net7.0\School.genruntimeconfig.cache
 C:\Users\Leonard\Desktop\SchoolApplication\obj\Debug\net7.0\ref\School.dll
+C:\Users\Leonard\Desktop\SchoolApplication\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Leonard\Desktop\SchoolApplication\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Leonard\Desktop\SchoolApplication\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Leonard\Desktop\SchoolApplication\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Leonard\Desktop\SchoolApplication\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Leonard\Desktop\SchoolApplication\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Leonard\Desktop\SchoolApplication\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Leonard\Desktop\SchoolApplication\bin\Debug\net7.0\Npgsql.dll
+C:\Users\Leonard\Desktop\SchoolApplication\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Leonard\Desktop\SchoolApplication\bin\Debug\net7.0\System.CodeDom.dll

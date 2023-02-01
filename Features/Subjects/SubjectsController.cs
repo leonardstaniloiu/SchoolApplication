@@ -84,7 +84,6 @@ public class SubjectsController
 
             return new SubjectsResponse()
             {
-                Success = true,
                 Id = subject.Id,
                 Name = subject.Name,
                 ProfMail = subject.ProfessorMail,
@@ -107,7 +106,6 @@ public class SubjectsController
             
             return new SubjectsResponse()
             {
-                Success = true,
                 Id = subject.Id,
                 Name = subject.Name,
                 ProfMail = subject.ProfessorMail,
